@@ -53,6 +53,30 @@ class Strategy:
         # ---------- Strong Hand ----------
         if win_prob > 0.75 or (score is not None and score < 2500):
             return self.raise_or_call(state, win_prob)
+        
+        # ---------- Medium Strength Value Raise ----------
+
+        medium_lower = 0.60
+        medium_upper = 0.75
+
+        if medium_lower <= win_prob < medium_upper:
+
+            # More aggressive if opponent folds often
+            value_raise_prob = 0.3 + opponent.fold_rate() * 0.4
+
+            # Slight reduction vs aggressive opponents
+            value_raise_prob *= (1 - opponent.aggression() * 0.3)
+
+            value_raise_prob = max(0.0, min(value_raise_prob, 0.8))
+
+            print(f"[DEBUG] Value Raise Prob: {value_raise_prob:.2f}", file=sys.stderr)
+
+            if random.random() < value_raise_prob:
+                print("[DEBUG] Medium Strength Raising", file=sys.stderr)
+                return self.raise_or_call(state, win_prob)
+
+            # Otherwise play passively
+            return self.call_or_check(state)
 
 
         # ---------- Adaptive Bluff Opportunity ----------
