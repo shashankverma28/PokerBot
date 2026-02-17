@@ -1,4 +1,5 @@
 import sys
+import random
 
 from actions import choose_safe_action
 from evaluator import evaluate_hand
@@ -7,40 +8,102 @@ from montecarlo import estimate_win_probability
 
 class Strategy:
 
-    def decide(self, state):
+    def decide(self, state, opponent):
 
         if not state.my_cards:
             return choose_safe_action(state.legal_actions)
 
-        score = evaluate_hand(state.my_cards, state.board_cards)
+        # ---------- Preflop vs Postflop ----------
 
-        win_prob = estimate_win_probability(
-            state.my_cards,
-            state.board_cards,
-            simulations=300
-        )
+        if len(state.board_cards) == 0:
+
+            # Preflop: use Monte Carlo only
+            win_prob = estimate_win_probability(
+                state.my_cards,
+                [],
+                simulations=300
+            )
+
+            score = None  # not used preflop
+
+        else:
+
+            # Postflop: evaluator + Monte Carlo
+            score = evaluate_hand(state.my_cards, state.board_cards)
+
+            win_prob = estimate_win_probability(
+                state.my_cards,
+                state.board_cards,
+                simulations=300
+            )
+
 
         call_amount = self.get_call_amount(state)
 
         pot_odds = self.compute_pot_odds(state.pot, call_amount)
 
-        # ---------- Decision ----------
+        fold_rate = opponent.fold_rate()
+        aggression = opponent.aggression()
 
-        # Strong hand
-        if win_prob > 0.75 or score < 2500:
+        print(f"[DEBUG] Win Prob: {win_prob:.3f}", file=sys.stderr)
+        print(f"[DEBUG] Pot Odds: {pot_odds:.3f}", file=sys.stderr)
+        print(f"[DEBUG] Opp Fold Rate: {fold_rate:.2f}", file=sys.stderr)
+
+
+        # ---------- Strong Hand ----------
+        if win_prob > 0.75 or (score is not None and score < 2500):
             return self.raise_or_call(state, win_prob)
 
-        # Medium hand → compare EV
+
+        # ---------- Adaptive Bluff Opportunity ----------
+
+        # Base bluff aggressiveness
+        base_bluff = 0.4
+        # Scale with opponent fold tendency
+        bluff_chance = base_bluff * fold_rate
+        # Reduce bluffing vs aggressive opponents
+        bluff_chance *= (1 - aggression * 0.5)
+        # Clamp safety
+        bluff_chance = max(0.0, min(bluff_chance, 0.8))
+
+        print(f"[DEBUG] Bluff Chance: {bluff_chance:.2f}", file=sys.stderr)
+
+        if win_prob < 0.35 and random.random() < bluff_chance:
+
+            print("[DEBUG] Bluffing!", file=sys.stderr)
+            return self.bluff_raise(state)
+
+
+        # ---------- Medium Hand ----------
         if call_amount > 0:
             if win_prob > pot_odds:
                 return self.call_or_check(state)
             else:
                 return self.fold_or_check(state)
 
-        # Free action
         return self.call_or_check(state)
 
-    # ---------- POT ODDS ----------
+    # ---------- Bluff Raise ----------
+
+    def bluff_raise(self, state):
+
+        for action in state.legal_actions:
+            if action.startswith("RAISE"):
+
+                parts = action.split(":")
+                min_raise = int(parts[1])
+                max_raise = int(parts[2])
+
+                #Smarter Bluff Size
+
+                amount = int(min_raise * 1.2)
+                amount = max(min_raise, min(amount, max_raise))
+
+                return f"RAISE:{amount}"
+
+        return self.call_or_check(state)
+
+    # ---------- Pot Odds ----------
 
     def compute_pot_odds(self, pot, call_amount):
 
@@ -63,7 +126,7 @@ class Strategy:
 
         return 0
 
-    # ---------- RAISE LOGIC ----------
+    # ---------- Value Raise ----------
 
     def raise_or_call(self, state, win_prob):
 
@@ -75,14 +138,16 @@ class Strategy:
                 min_raise = int(parts[1])
                 max_raise = int(parts[2])
 
-                amount = self.compute_raise_amount(
-                    state,
-                    win_prob,
-                    min_raise,
-                    max_raise
-                )
+                pot = state.pot
 
-                return f"RAISE:{amount}"
+                if win_prob > 0.9:
+                    target = int(pot * 1.5)
+                else:
+                    target = int(pot * 0.8)
+
+                target = max(min_raise, min(target, max_raise))
+
+                return f"RAISE:{target}"
 
         for action in state.legal_actions:
             if action.startswith("CALL"):
@@ -90,29 +155,7 @@ class Strategy:
 
         return choose_safe_action(state.legal_actions)
 
-    def compute_raise_amount(self, state, win_prob, min_raise, max_raise):
-
-        pot = state.pot
-
-        if win_prob > 0.9:
-            target = int(pot * 1.5)
-
-        elif win_prob > 0.75:
-            target = int(pot * 1.0)
-
-        elif win_prob > 0.6:
-            target = int(pot * 0.6)
-
-        else:
-            target = min_raise
-
-        target = max(min_raise, min(target, max_raise))
-
-        print(f"[DEBUG] Raise target: {target}", file=sys.stderr)
-
-        return target
-
-    # ---------- CALL / CHECK ----------
+    # ---------- Call / Check ----------
 
     def call_or_check(self, state):
 
@@ -126,7 +169,7 @@ class Strategy:
 
         return choose_safe_action(state.legal_actions)
 
-    # ---------- FOLD / CHECK ----------
+    # ---------- Fold / Check ----------
 
     def fold_or_check(self, state):
 

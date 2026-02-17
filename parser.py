@@ -36,5 +36,6 @@ def parse_getaction(line):
         "pot": pot,
         "board_cards": board_cards,
         "legal_actions": legal_actions,
+        "last_actions": last_actions,
         "timebank": timebank
     }

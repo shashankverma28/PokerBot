@@ -1,0 +1,3207 @@
+
+================================================================================
+TEST CASE: Strong Hand Raise
+REPEATS: 10
+TIME: 2026-02-17 21:43:44
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.967
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.943
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.942
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.943
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.957
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.938
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.937
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.947
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.937
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 1 1 Ah Kd 200 200 10.0
+GETACTION 20 3 Qh Jh Tc 0 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:30
+
+DEBUG:
+[DEBUG] Win Prob: 0.957
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 10 (100.0%)
+CALL: 0 (0.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Cheap Call Weak
+REPEATS: 10
+TIME: 2026-02-17 21:43:46
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.180
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.217
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.153
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.198
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.212
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.203
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+[DEBUG] Bluffing!
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.205
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.168
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.195
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 2 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:5 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.185
+[DEBUG] Pot Odds: 0.048
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- SUMMARY ---
+RAISE: 0 (0.0%)
+CALL: 10 (100.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Expensive Call Weak
+REPEATS: 10
+TIME: 2026-02-17 21:43:48
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.197
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.173
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.190
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.178
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.188
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.223
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+[DEBUG] Bluffing!
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.162
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.185
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.198
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 3 1 7c 2d 200 200 10.0
+GETACTION 100 3 Ah Kh Qh 0 2 CALL:80 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.188
+[DEBUG] Pot Odds: 0.444
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- SUMMARY ---
+RAISE: 0 (0.0%)
+CALL: 1 (10.0%)
+CHECK: 0 (0.0%)
+FOLD: 9 (90.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Medium Strength
+REPEATS: 10
+TIME: 2026-02-17 21:43:50
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.707
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.682
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.730
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.750
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.683
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.680
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.740
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.713
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.720
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 9h 9d 200 200 10.0
+GETACTION 50 3 Ah 7c 2s 0 3 CALL:10 FOLD RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:40
+
+DEBUG:
+[DEBUG] Win Prob: 0.753
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 1 (10.0%)
+CALL: 9 (90.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Free Check
+REPEATS: 10
+TIME: 2026-02-17 21:43:52
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.233
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+[DEBUG] Bluffing!
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.233
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.210
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.185
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.203
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.243
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.218
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.182
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.202
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 5h 6d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 2 CHECK FOLD 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.202
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- SUMMARY ---
+RAISE: 0 (0.0%)
+CALL: 0 (0.0%)
+CHECK: 10 (100.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: No Raise Available
+REPEATS: 10
+TIME: 2026-02-17 21:43:54
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.873
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.857
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.847
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.785
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.857
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.857
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.815
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.857
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.880
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 6 1 Ah Ad 200 200 10.0
+GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.823
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 0 (0.0%)
+CALL: 10 (100.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Bluff Opportunity
+REPEATS: 20
+TIME: 2026-02-17 21:43:56
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.222
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+[DEBUG] Bluffing!
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.197
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.247
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.252
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.252
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.192
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+[DEBUG] Bluffing!
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.210
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.177
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.242
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.230
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 11 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.227
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 12 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.233
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 13 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.227
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 14 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.210
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 15 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.207
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 16 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.235
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 17 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.212
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 18 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.193
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 19 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.190
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 20 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 7 1 2c 7d 200 200 10.0
+GETACTION 30 3 Ah Kd Qs 0 3 FOLD CALL:10 RAISE:10:40 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.237
+[DEBUG] Pot Odds: 0.250
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- SUMMARY ---
+RAISE: 2 (10.0%)
+CALL: 2 (10.0%)
+CHECK: 0 (0.0%)
+FOLD: 16 (80.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Opponent Fold Heavy
+REPEATS: 20
+TIME: 2026-02-17 21:44:01
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.188
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.205
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.193
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.257
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.198
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.183
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.208
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.180
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.222
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.200
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 11 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.205
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 12 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.205
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 13 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.208
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 14 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.252
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+
+--- RUN 15 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.215
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+
+--- RUN 16 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.212
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 17 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.178
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 18 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.178
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+
+--- RUN 19 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.213
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- RUN 20 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 8 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.205
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.40
+[DEBUG] Bluffing!
+
+--- SUMMARY ---
+RAISE: 13 (65.0%)
+CALL: 3 (15.0%)
+CHECK: 0 (0.0%)
+FOLD: 4 (20.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Opponent Aggressive
+REPEATS: 20
+TIME: 2026-02-17 21:44:05
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.198
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.230
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.203
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.192
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.187
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.173
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.213
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.222
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.208
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.202
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 11 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.192
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 12 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.208
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 13 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.218
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 14 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.212
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 15 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.215
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 16 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.182
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 17 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.215
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 18 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.220
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 19 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.190
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- RUN 20 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 9 1 4c 8d 200 200 10.0
+GETACTION 40 3 Ah Kh Qh 3 RAISE:20 RAISE:30 RAISE:40 3 FOLD CALL:20 RAISE:20:60 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.213
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.00
+[DEBUG] Bluff Chance: 0.00
+
+--- SUMMARY ---
+RAISE: 0 (0.0%)
+CALL: 0 (0.0%)
+CHECK: 0 (0.0%)
+FOLD: 20 (100.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Preflop Strong
+REPEATS: 15
+TIME: 2026-02-17 21:44:09
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.885
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.843
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.865
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.828
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.855
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.862
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.848
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.855
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.862
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.850
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 11 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.877
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 12 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.843
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 13 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.850
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 14 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.872
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 15 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 10 1 Ah Ad 200 200 10.0
+GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+
+OUTPUT:
+RAISE:8
+
+DEBUG:
+[DEBUG] Win Prob: 0.838
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 15 (100.0%)
+CALL: 0 (0.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Preflop Weak
+REPEATS: 15
+TIME: 2026-02-17 21:44:12
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.325
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.330
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.327
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.370
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.367
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.330
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+[DEBUG] Bluffing!
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.395
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.353
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.363
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.382
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 11 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.327
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 12 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.372
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 13 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.340
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 14 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.342
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- RUN 15 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 11 1 2c 7d 200 200 10.0
+GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] Win Prob: 0.375
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.09
+
+--- SUMMARY ---
+RAISE: 0 (0.0%)
+CALL: 15 (100.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Large Pot
+REPEATS: 10
+TIME: 2026-02-17 21:44:15
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.978
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.970
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.937
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.962
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.965
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.960
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.958
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.965
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.957
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 Kh Qh 200 200 10.0
+GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:200 10.0
+
+OUTPUT:
+RAISE:200
+
+DEBUG:
+[DEBUG] Win Prob: 0.957
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 10 (100.0%)
+CALL: 0 (0.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Raise Clamp
+REPEATS: 10
+TIME: 2026-02-17 21:44:17
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.947
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.953
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.927
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.943
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.950
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.953
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.940
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.940
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.945
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 13 1 Ah Kd 200 200 10.0
+GETACTION 10 3 Qh Jh Tc 0 3 FOLD CALL:5 RAISE:5:12 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] Win Prob: 0.937
+[DEBUG] Pot Odds: 0.333
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 10 (100.0%)
+CALL: 0 (0.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: River Full Board
+REPEATS: 10
+TIME: 2026-02-17 21:44:19
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 0.992
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 0.995
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 1.000
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 0.995
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 0.993
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 0.995
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 0.998
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 0.995
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 0.998
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 14 1 Ah Kd 200 200 10.0
+GETACTION 100 5 Qh Jh Tc 2d 9s 0 3 FOLD CALL:20 RAISE:20:80 10.0
+
+OUTPUT:
+RAISE:80
+
+DEBUG:
+[DEBUG] Win Prob: 1.000
+[DEBUG] Pot Odds: 0.167
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 10 (100.0%)
+CALL: 0 (0.0%)
+CHECK: 0 (0.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Only Fold Legal
+REPEATS: 5
+TIME: 2026-02-17 21:44:22
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 15 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.957
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 15 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.932
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 15 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.955
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 15 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.927
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 15 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 FOLD 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] Win Prob: 0.937
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 0 (0.0%)
+CALL: 0 (0.0%)
+CHECK: 0 (0.0%)
+FOLD: 5 (100.0%)
+OTHER: 0 (0.0%)
+
+
+================================================================================
+TEST CASE: Only Check Legal
+REPEATS: 5
+TIME: 2026-02-17 21:44:23
+================================================================================
+
+--- RUN 1 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 16 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 CHECK 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.952
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 16 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 CHECK 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.935
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 16 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 CHECK 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.953
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 16 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 CHECK 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.953
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 16 1 Ah Kd 200 200 10.0
+GETACTION 50 3 Qh Jh Tc 0 1 CHECK 10.0
+
+OUTPUT:
+CHECK
+
+DEBUG:
+[DEBUG] Win Prob: 0.937
+[DEBUG] Pot Odds: 0.000
+[DEBUG] Opp Fold Rate: 0.30
+
+--- SUMMARY ---
+RAISE: 0 (0.0%)
+CALL: 0 (0.0%)
+CHECK: 5 (100.0%)
+FOLD: 0 (0.0%)
+OTHER: 0 (0.0%)
+

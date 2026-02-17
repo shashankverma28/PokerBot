@@ -4,11 +4,14 @@ from state import GameState
 from parser import parse_getaction
 from strategy import Strategy
 from cards import parse_cards
+from opponent import OpponentModel
+
 
 
 class PokerBot:
     def __init__(self):
         self.state = GameState()
+        self.opponent = OpponentModel()
         self.strategy = Strategy()
 
     def handle_newgame(self, tokens):
@@ -34,8 +37,11 @@ class PokerBot:
         self.state.board_cards = parse_cards(data["board_cards"])
         self.state.legal_actions = data["legal_actions"]
 
+        # Update opponent model with last actions
+        self.opponent.update(data["last_actions"])
+
         # Decide action using strategy
-        action = self.strategy.decide(self.state)
+        action = self.strategy.decide(self.state, self.opponent)
 
         print(action)
         sys.stdout.flush()
