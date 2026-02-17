@@ -9,11 +9,9 @@ class Strategy:
 
     def decide(self, state):
 
-        # Safety fallback
         if not state.my_cards:
             return choose_safe_action(state.legal_actions)
 
-        # ----- Hand Evaluation -----
         score = evaluate_hand(state.my_cards, state.board_cards)
 
         win_prob = estimate_win_probability(
@@ -22,16 +20,48 @@ class Strategy:
             simulations=300
         )
 
+        call_amount = self.get_call_amount(state)
 
-        # ----- Decision Logic -----
+        pot_odds = self.compute_pot_odds(state.pot, call_amount)
+
+        # ---------- Decision ----------
+
+        # Strong hand
         if win_prob > 0.75 or score < 2500:
             return self.raise_or_call(state, win_prob)
 
-        elif win_prob > 0.45:
-            return self.call_or_check(state)
+        # Medium hand → compare EV
+        if call_amount > 0:
+            if win_prob > pot_odds:
+                return self.call_or_check(state)
+            else:
+                return self.fold_or_check(state)
 
-        else:
-            return self.fold_or_check(state)
+        # Free action
+        return self.call_or_check(state)
+
+    # ---------- POT ODDS ----------
+
+    def compute_pot_odds(self, pot, call_amount):
+
+        if call_amount == 0:
+            return 0
+
+        return call_amount / (pot + call_amount)
+
+    def get_call_amount(self, state):
+
+        for action in state.legal_actions:
+            if action.startswith("CALL"):
+
+                parts = action.split(":")
+
+                if len(parts) > 1:
+                    return int(parts[1])
+
+                return 0
+
+        return 0
 
     # ---------- RAISE LOGIC ----------
 
@@ -54,7 +84,6 @@ class Strategy:
 
                 return f"RAISE:{amount}"
 
-        # If raise not available → call
         for action in state.legal_actions:
             if action.startswith("CALL"):
                 return "CALL"
@@ -65,7 +94,6 @@ class Strategy:
 
         pot = state.pot
 
-        # Stronger hand → larger raise
         if win_prob > 0.9:
             target = int(pot * 1.5)
 
@@ -78,12 +106,13 @@ class Strategy:
         else:
             target = min_raise
 
-        # Clamp inside legal range
         target = max(min_raise, min(target, max_raise))
+
+        print(f"[DEBUG] Raise target: {target}", file=sys.stderr)
 
         return target
 
-    # ---------- MEDIUM STRENGTH ----------
+    # ---------- CALL / CHECK ----------
 
     def call_or_check(self, state):
 
@@ -97,7 +126,7 @@ class Strategy:
 
         return choose_safe_action(state.legal_actions)
 
-    # ---------- WEAK HAND ----------
+    # ---------- FOLD / CHECK ----------
 
     def fold_or_check(self, state):
 
