@@ -6,7 +6,7 @@ from evaluator import evaluate_hand
 from montecarlo import estimate_win_probability
 from preflop import preflop_decision
 from draws import detect_draw
-
+from board_texture import classify_board
 
 class Strategy:
 
@@ -51,19 +51,41 @@ class Strategy:
         fold_rate = opponent.fold_rate()
         aggression = opponent.aggression()
 
+        # ---------- Board Texture ----------
+
+        board_info = classify_board(state.board_cards)
+        texture = board_info["texture"]
+        wet_board = board_info["wet"]
+
+        print(f"[DEBUG] Texture: {texture}", file=sys.stderr)
         print(f"[DEBUG] In Position: {in_pos}", file=sys.stderr)
         print(f"[DEBUG] Win Prob: {win_prob:.3f}", file=sys.stderr)
         print(f"[DEBUG] Pot Odds: {pot_odds:.3f}", file=sys.stderr)
         print(f"[DEBUG] Opp Fold Rate: {fold_rate:.2f}", file=sys.stderr)
 
-        # ---------- Strong Hand ----------
+        # ---------- Strong Hand Threshold ----------
 
         strong_threshold = 0.75
 
+        # Texture adjustment
+        if texture in {"wet_heavy", "connected"}:
+            strong_threshold += 0.07
+
+        elif texture in {"monotone", "two_tone"}:
+            strong_threshold += 0.04
+
+        elif texture == "dry_high":
+            strong_threshold -= 0.05
+
+        elif texture == "paired":
+            strong_threshold -= 0.03
+
+        # Position adjustment
         if in_pos:
             strong_threshold -= 0.05
         else:
             strong_threshold += 0.05
+
 
         if win_prob > strong_threshold or (score is not None and score < 2500):
             return self.raise_or_call(state, win_prob)
@@ -113,6 +135,16 @@ class Strategy:
             bluff_chance *= 1.3
         else:
             bluff_chance *= 0.7
+            
+        # Texture adjustment
+        if texture in {"dry_high", "paired"}:
+            bluff_chance *= 1.3
+
+        elif texture in {"wet_heavy", "connected"}:
+            bluff_chance *= 0.6
+
+        elif texture == "monotone":
+            bluff_chance *= 1.1
 
         bluff_chance = max(0.0, min(bluff_chance, 0.8))
 
