@@ -1,90 +1,52 @@
 import sys
-import random
+
+from state import GameState
+from parser import parse_getaction
+from strategy import Strategy
+from cards import parse_cards
 
 
 class PokerBot:
     def __init__(self):
-        self.bankroll = 0
-        self.hand_id = 0
-
-    # ---------- ENGINE EVENTS ----------
+        self.state = GameState()
+        self.strategy = Strategy()
 
     def handle_newgame(self, tokens):
-        # NEWGAME player1 player2 stack bb numHands timeBank
         pass
 
     def handle_newhand(self, tokens):
-        # NEWHAND handId button holecards myBank oppBank timeBank
-        self.hand_id += 1
+        self.state.hand_id += 1
+        self.state.reset_hand()
 
-    def handle_handover(self, tokens):
-        # HANDOVER ...
-        pass
+        # Example: tokens contain hole cards at fixed positions
+        # Adjust indices based on engine spec
+        hole_cards = tokens[3:5]
 
-    # ---------- DECISION LOGIC ----------
+        self.state.my_cards = parse_cards(hole_cards)
 
-    def choose_action(self, legal_actions):
-        """
-        legal_actions examples:
-        ["FOLD", "CALL", "CHECK"]
-        ["FOLD", "CALL", "RAISE:10:100"]
-        """
-
-        # Prefer CHECK if available (free action)
-        for action in legal_actions:
-            if action.startswith("CHECK"):
-                return "CHECK"
-
-        # Prefer CALL if available
-        for action in legal_actions:
-            if action.startswith("CALL"):
-                return "CALL"
-
-        # Otherwise pick random legal action
-        action = random.choice(legal_actions)
-
-        # Handle raise range
-        if action.startswith("RAISE"):
-            parts = action.split(":")
-            min_raise = int(parts[1])
-            max_raise = int(parts[2])
-
-            amount = random.randint(min_raise, max_raise)
-            return f"RAISE:{amount}"
-
-        return action
-
-    # ---------- GETACTION HANDLER ----------
 
     def handle_getaction(self, line):
-        """
-        GETACTION format varies by competition,
-        but legal actions are always at the end.
-        """
 
-        parts = line.strip().split()
+        data = parse_getaction(line)
 
-        try:
-            num_legal = int(parts[-2])
-        except:
-            # fallback safety
-            print("CHECK")
-            sys.stdout.flush()
-            return
+        # Update state from engine info
+        self.state.pot = data["pot"]
+        self.state.board_cards = parse_cards(data["board_cards"])
+        self.state.legal_actions = data["legal_actions"]
 
-        legal_actions = parts[-num_legal:]
-
-        action = self.choose_action(legal_actions)
+        # Decide action using strategy
+        action = self.strategy.decide(self.state)
 
         print(action)
         sys.stdout.flush()
 
-    # ---------- MAIN LOOP ----------
+
+    def handle_handover(self, tokens):
+        pass
 
     def run(self):
         for line in sys.stdin:
             line = line.strip()
-
             if not line:
                 continue
 
