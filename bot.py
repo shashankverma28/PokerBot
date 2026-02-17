@@ -21,6 +21,13 @@ class PokerBot:
         self.state.hand_id += 1
         self.state.reset_hand()
 
+        button = int(tokens[2])
+
+        # Heads-up:
+        # button == 1 → we are dealer → in position
+        # button == 0 → opponent dealer → out of position
+        self.state.in_position = (button == 1)
+        
         # Example: tokens contain hole cards at fixed positions
         # Adjust indices based on engine spec
         hole_cards = tokens[3:5]

@@ -8,6 +8,7 @@ class GameState:
 
         self.pot = 0
         self.legal_actions = []
+        self.in_position = True
 
     def reset_hand(self):
         self.my_cards = []
