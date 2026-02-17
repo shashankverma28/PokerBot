@@ -5,6 +5,7 @@ from actions import choose_safe_action
 from evaluator import evaluate_hand
 from montecarlo import estimate_win_probability
 from preflop import preflop_decision
+from draws import detect_draw
 
 
 class Strategy:
@@ -92,13 +93,22 @@ class Strategy:
 
             return self.call_or_check(state)
 
-        # ---------- Adaptive Bluff ----------
+        # ---------- Adaptive Bluff + Semi Bluff ----------
+
+        draw_info = detect_draw(state.my_cards, state.board_cards)
+        has_draw = draw_info["any_draw"]
 
         base_bluff = 0.4
         bluff_chance = base_bluff * fold_rate
         bluff_chance *= (1 - aggression * 0.5)
 
-        # POSITION ADJUSTMENT
+        # Prefer bluff when draw present
+        if has_draw:
+            bluff_chance *= 1.5
+        else:
+            bluff_chance *= 0.6
+
+        # Position adjustment
         if in_pos:
             bluff_chance *= 1.3
         else:
@@ -107,8 +117,9 @@ class Strategy:
         bluff_chance = max(0.0, min(bluff_chance, 0.8))
 
         print(f"[DEBUG] Bluff Chance: {bluff_chance:.2f}", file=sys.stderr)
+        print(f"[DEBUG] Has Draw: {has_draw}", file=sys.stderr)
 
-        if win_prob < 0.35 and random.random() < bluff_chance:
+        if win_prob < 0.45 and random.random() < bluff_chance:
             return self.bluff_raise(state)
 
         # ---------- Normal EV Decision ----------
