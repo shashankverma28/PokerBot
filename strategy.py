@@ -4,6 +4,7 @@ import random
 from actions import choose_safe_action
 from evaluator import evaluate_hand
 from montecarlo import estimate_win_probability
+from preflop import preflop_decision
 
 
 class Strategy:
@@ -15,17 +16,23 @@ class Strategy:
 
         in_pos = state.in_position
 
-        # ---------- Preflop vs Postflop ----------
+        # ---------- Preflop Logic ----------
 
         if len(state.board_cards) == 0:
 
-            win_prob = estimate_win_probability(
-                state.my_cards,
-                [],
-                simulations=300
-            )
+            action = preflop_decision(state.my_cards, state.in_position)
 
-            score = None
+            print(f"[DEBUG] Preflop Action: {action}", file=sys.stderr)
+
+            if action == "RAISE":
+                return self.raise_or_call(state, 0.7)
+
+            if action == "FOLD":
+                return self.fold_or_check(state)
+
+            # fallback
+            return self.call_or_check(state)
+
 
         else:
 
