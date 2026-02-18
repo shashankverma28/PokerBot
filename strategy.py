@@ -179,8 +179,27 @@ class Strategy:
         print(f"[DEBUG] Bluff Chance: {bluff_chance:.2f}", file=sys.stderr)
         print(f"[DEBUG] Has Draw: {has_draw}", file=sys.stderr)
 
-        if win_prob < 0.45 and random.random() < bluff_chance:
-            return self.bluff_raise(state, texture, spr)
+        if win_prob < 0.45 or has_draw:
+            
+            # ---------- Fold Equity Adjustment ----------
+
+            fold_prob = fold_rate
+
+            if not in_pos:
+                fold_prob *= 0.85
+
+            if wet_board:
+                fold_prob *= 0.9
+
+            if spr <= 2:
+                fold_prob *= 1.1
+
+            fold_prob = max(0.0, min(fold_prob, 0.95))
+
+            bluff_ev = self.compute_bluff_ev(state, fold_prob, texture, spr)
+
+            if bluff_ev > 0 and random.random() < bluff_chance:
+                return self.bluff_raise(state, texture, spr)
 
         # ---------- Normal EV Decision ----------
 
@@ -335,3 +354,23 @@ class Strategy:
                 return "FOLD"
 
         return "CHECK"
+
+    def compute_bluff_ev(self, state, fold_prob, texture=None, spr=0):
+
+        # Estimate bluff bet size
+        bet_size = self.compute_raise_size(
+            state,
+            win_prob=0.3,
+            texture=texture,
+            spr=spr,
+            is_bluff=True
+        )
+
+        pot = state.pot
+
+        # EV = fold_prob * pot - (1 - fold_prob) * bet
+        ev = fold_prob * pot - (1 - fold_prob) * bet_size
+
+        print(f"[DEBUG] Bluff EV: {ev:.2f}", file=sys.stderr)
+
+        return ev
