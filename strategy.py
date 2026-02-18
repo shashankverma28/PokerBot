@@ -21,7 +21,11 @@ class Strategy:
 
         if len(state.board_cards) == 0:
 
-            action = preflop_decision(state.my_cards, state.in_position)
+            action = preflop_decision(
+                state.my_cards,
+                state,
+                opponent
+            )
 
             print(f"[DEBUG] Preflop Action: {action}", file=sys.stderr)
 

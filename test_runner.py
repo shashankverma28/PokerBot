@@ -84,116 +84,149 @@ def main():
 
     tests = [
 
-        # =============================
-        # PREFLOP VALIDATION
-        # =============================
+        # =========================================================
+        # PREFLOISE PREFLOP — POSITION + RANGE VALIDATION
+        # =========================================================
 
-        ("Preflop Strong",
+        ("Preflop Premium BTN",
         """NEWGAME botA botB 200 2 1000 10.0
     NEWHAND 1 1 Ah Ad 200 200 10.0
     GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
-    """, 20),
+    """, 25),
 
-        ("Preflop Weak",
+        ("Preflop Premium BB",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 2 1 7c 2d 200 200 10.0
+    NEWHAND 2 0 Ah Ad 200 200 10.0
+    GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+    """, 25),
+
+        ("Preflop Medium BTN",
+        """NEWGAME botA botB 200 2 1000 10.0
+    NEWHAND 3 1 Kd Qd 200 200 10.0
+    GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+    """, 30),
+
+        ("Preflop Speculative BTN",
+        """NEWGAME botA botB 200 2 1000 10.0
+    NEWHAND 4 1 7h 6h 200 200 10.0
+    GETACTION 10 0 0 3 FOLD CALL:2 RAISE:4:20 10.0
+    """, 30),
+
+        ("Preflop Trash BTN",
+        """NEWGAME botA botB 200 2 1000 10.0
+    NEWHAND 5 1 7c 2d 200 200 10.0
     GETACTION 10 0 0 2 CALL:2 FOLD 10.0
-    """, 20),
+    """, 40),
 
-        # =============================
-        # BET SIZING — DRY VS WET
-        # =============================
-
-        ("Dry Board Sizing",
+        ("Preflop Trash BB",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 3 1 As Kd 200 200 10.0
-    GETACTION 40 3 Ah 7d 2c 0 3 FOLD CALL:5 RAISE:10:200 10.0
-    """, 20),
+    NEWHAND 6 0 7c 2d 200 200 10.0
+    GETACTION 10 0 0 2 CALL:2 FOLD 10.0
+    """, 40),
 
-        ("Wet Board Sizing",
-        """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 4 1 Qh Qd 200 200 10.0
-    GETACTION 40 3 Jh Tc 9h 0 3 FOLD CALL:5 RAISE:10:200 10.0
-    """, 20),
-
-        # =============================
-        # SPR EFFECT TESTS
-        # =============================
+        # =========================================================
+        # SPR EFFECT VALIDATION
+        # =========================================================
 
         ("Low SPR Commit",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 5 1 Kh Qh 60 60 10.0
+    NEWHAND 7 1 Kh Qh 60 60 10.0
     GETACTION 40 3 Ah Jh Tc 0 3 FOLD CALL:10 RAISE:10:200 10.0
-    """, 20),
+    """, 25),
 
         ("High SPR Deep",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 6 1 Kh Qh 500 500 10.0
+    NEWHAND 8 1 Kh Qh 500 500 10.0
     GETACTION 20 3 Ah Jh Tc 0 3 FOLD CALL:5 RAISE:10:200 10.0
-    """, 20),
+    """, 25),
 
-        # =============================
-        # BLUFF SIZE TEST
-        # =============================
+        # =========================================================
+        # BOARD TEXTURE SIZING VALIDATION
+        # =========================================================
 
-        ("Bluff Opportunity Dry",
+        ("Dry Board Small Bet",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 7 1 7c 2d 200 200 10.0
-    GETACTION 30 3 Ah 7d 2c 0 3 FOLD CALL:5 RAISE:10:200 10.0
+    NEWHAND 9 1 As Kd 200 200 10.0
+    GETACTION 40 3 Ah 7d 2c 0 3 FOLD CALL:5 RAISE:10:200 10.0
     """, 30),
 
-        # =============================
-        # SEMI BLUFF TEST
-        # =============================
+        ("Wet Board Large Bet",
+        """NEWGAME botA botB 200 2 1000 10.0
+    NEWHAND 10 1 Qh Qd 200 200 10.0
+    GETACTION 40 3 Jh Tc 9h 0 3 FOLD CALL:5 RAISE:10:200 10.0
+    """, 30),
+
+        ("Paired Board",
+        """NEWGAME botA botB 200 2 1000 10.0
+    NEWHAND 11 1 Ah Kd 200 200 10.0
+    GETACTION 40 3 Kc Kd 4h 0 3 FOLD CALL:5 RAISE:10:200 10.0
+    """, 30),
+
+        # =========================================================
+        # BLUFF + SEMI-BLUFF
+        # =========================================================
 
         ("Flush Draw Semi Bluff",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 8 1 9h 8h 200 200 10.0
+    NEWHAND 12 1 9h 8h 200 200 10.0
     GETACTION 30 3 Ah Kh 2c 0 3 FOLD CALL:5 RAISE:10:200 10.0
-    """, 30),
+    """, 40),
 
-        # =============================
-        # POSITION IMPACT
-        # =============================
+        ("Open Ended Straight Draw",
+        """NEWGAME botA botB 200 2 1000 10.0
+    NEWHAND 13 1 9h 8d 200 200 10.0
+    GETACTION 30 3 7c 6s 2h 0 3 FOLD CALL:5 RAISE:10:200 10.0
+    """, 40),
+
+        ("Pure Bluff Opportunity",
+        """NEWGAME botA botB 200 2 1000 10.0
+    NEWHAND 14 1 7c 2d 200 200 10.0
+    GETACTION 30 3 Ah 7d 2c 0 3 FOLD CALL:5 RAISE:10:200 10.0
+    """, 50),
+
+        # =========================================================
+        # POSITION EFFECT POSTFLOP
+        # =========================================================
 
         ("In Position Aggression",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 9 1 Ah Kh 200 200 10.0
+    NEWHAND 15 1 Ah Kh 200 200 10.0
     GETACTION 30 3 As 7d 2c 0 3 FOLD CALL:5 RAISE:10:200 10.0
-    """, 20),
+    """, 30),
 
         ("Out Position Control",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 10 0 Ah Kh 200 200 10.0
+    NEWHAND 16 0 Ah Kh 200 200 10.0
     GETACTION 30 3 As 7d 2c 0 3 FOLD CALL:5 RAISE:10:200 10.0
-    """, 20),
+    """, 30),
 
-        # =============================
+        # =========================================================
         # EXTREME POT PRESSURE
-        # =============================
+        # =========================================================
 
         ("Huge Pot Pressure",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 11 1 Ah Qh 200 200 10.0
+    NEWHAND 17 1 Ah Qh 200 200 10.0
     GETACTION 300 3 Ah Jh Tc 0 3 FOLD CALL:50 RAISE:50:400 10.0
-    """, 20),
+    """, 25),
 
-        # =============================
+        # =========================================================
         # LEGAL EDGE CASES
-        # =============================
+        # =========================================================
 
         ("No Raise Available",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 12 1 Ah Ad 200 200 10.0
+    NEWHAND 18 1 Ah Ad 200 200 10.0
     GETACTION 40 3 2c 7d 9h 0 2 CALL:10 FOLD 10.0
-    """, 10),
+    """, 15),
 
         ("Only Check Legal",
         """NEWGAME botA botB 200 2 1000 10.0
-    NEWHAND 13 1 Ah Kd 200 200 10.0
+    NEWHAND 19 1 Ah Kd 200 200 10.0
     GETACTION 50 3 Qh Jh Tc 0 1 CHECK 10.0
-    """, 5),
+    """, 10),
     ]
+
 
 
     for name, data, reps in tests:
