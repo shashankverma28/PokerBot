@@ -26,7 +26,7 @@ class Strategy:
             print(f"[DEBUG] Preflop Action: {action}", file=sys.stderr)
 
             if action == "RAISE":
-                return self.raise_or_call(state, 0.7)
+                return self.raise_or_call(state, 0.7, "dry_high", state.spr)
 
             if action == "FOLD":
                 return self.fold_or_check(state)
@@ -97,8 +97,8 @@ class Strategy:
             strong_threshold += 0.05
 
 
-        if (win_prob > strong_threshold) or (score and score < 2500):
-            return self.raise_or_call(state, win_prob)
+        if (win_prob > strong_threshold) or (score is not None and score < 2500):
+            return self.raise_or_call(state, win_prob, texture, spr)
 
         # ---------- Medium Strength Value Raise ----------
 
@@ -128,7 +128,7 @@ class Strategy:
             print(f"[DEBUG] Value Raise Prob: {value_raise_prob:.2f}", file=sys.stderr)
 
             if random.random() < value_raise_prob:
-                return self.raise_or_call(state, win_prob)
+                return self.raise_or_call(state, win_prob, texture, spr)
 
             return self.call_or_check(state)
 
@@ -176,7 +176,7 @@ class Strategy:
         print(f"[DEBUG] Has Draw: {has_draw}", file=sys.stderr)
 
         if win_prob < 0.45 and random.random() < bluff_chance:
-            return self.bluff_raise(state)
+            return self.bluff_raise(state, texture, spr)
 
         # ---------- Normal EV Decision ----------
 
@@ -190,21 +190,24 @@ class Strategy:
 
     # ---------- Helpers ----------
 
-    def bluff_raise(self, state):
+    def bluff_raise(self, state, texture=None, spr=0):
 
-        for action in state.legal_actions:
-            if action.startswith("RAISE"):
+        for act in state.legal_actions:
 
-                parts = action.split(":")
-                min_raise = int(parts[1])
-                max_raise = int(parts[2])
+            if act.startswith("RAISE"):
 
-                amount = int(min_raise * 1.2)
-                amount = max(min_raise, min(amount, max_raise))
+                target = self.compute_raise_size(
+                    state,
+                    win_prob=0.3,
+                    texture=texture,
+                    spr=spr,
+                    is_bluff=True
+                )
 
-                return f"RAISE:{amount}"
+                return f"RAISE:{target}"
 
         return self.call_or_check(state)
+
 
     def compute_pot_odds(self, pot, call_amount):
 
@@ -222,21 +225,92 @@ class Strategy:
 
         return 0
 
-    def raise_or_call(self, state, win_prob):
+    def get_raise_bounds(self, state):
 
-        for action in state.legal_actions:
-            if action.startswith("RAISE"):
+        for act in state.legal_actions:
+            if act.startswith("RAISE"):
+                parts = act.split(":")
+                return int(parts[1]), int(parts[2])
 
-                parts = action.split(":")
-                min_raise = int(parts[1])
-                max_raise = int(parts[2])
+        return 0, 0
 
-                target = int(state.pot * 1.2)
-                amount = max(min_raise, min(target, max_raise))
+    # ------------------Bet Sizing Intelligence -----------------
 
-                return f"RAISE:{amount}"
+    def compute_raise_size(self, state, win_prob, texture, spr, is_bluff=False):
 
-        return self.call_or_check(state)
+        pot = state.pot
+
+        # ----- Base sizing by strength -----
+
+        if is_bluff:
+            base_mult = 0.7
+        elif win_prob > 0.8:
+            base_mult = 0.9
+        elif win_prob > 0.65:
+            base_mult = 0.7
+        else:
+            base_mult = 0.55
+
+        # ----- Texture adjustments -----
+
+        if texture in {"wet_heavy", "connected"}:
+            base_mult += 0.2
+
+        elif texture in {"two_tone"}:
+            base_mult += 0.1
+
+        elif texture in {"dry_high"}:
+            base_mult -= 0.15
+
+        elif texture in {"paired"}:
+            base_mult -= 0.05
+
+        # ----- SPR adjustments -----
+
+        if spr <= 3:
+            base_mult += 0.25   # commit faster
+
+        elif spr >= 10:
+            base_mult -= 0.15   # pot control
+
+        # Clamp multiplier
+        base_mult = max(0.3, min(base_mult, 1.5))
+
+        target = int(pot * base_mult)
+
+        # ----- Legal bounds -----
+
+        min_raise, max_raise = self.get_raise_bounds(state)
+
+        target = max(min_raise, min(target, max_raise))
+
+        print(f"[DEBUG] Bet Multiplier: {base_mult:.2f}", file=sys.stderr)
+        print(f"[DEBUG] Target Raise: {target}", file=sys.stderr)
+
+        return target
+
+    def raise_or_call(self, state, win_prob, texture=None, spr=0):
+
+        call_amount = self.get_call_amount(state)
+
+        for act in state.legal_actions:
+            if act.startswith("RAISE"):
+                target = self.compute_raise_size(
+                    state,
+                    win_prob,
+                    texture,
+                    spr,
+                    is_bluff=False
+                )
+
+                return f"RAISE:{target}"
+
+        # fallback
+        if call_amount > 0:
+            return "CALL"
+
+        return "CHECK"
+
 
     def call_or_check(self, state):
 
