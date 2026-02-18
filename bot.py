@@ -27,12 +27,14 @@ class PokerBot:
         # button == 1 → we are dealer → in position
         # button == 0 → opponent dealer → out of position
         self.state.in_position = (button == 1)
-        
+
         # Example: tokens contain hole cards at fixed positions
         # Adjust indices based on engine spec
         hole_cards = tokens[3:5]
 
         self.state.my_cards = parse_cards(hole_cards)
+        self.state.my_stack = int(tokens[5])
+        self.state.opp_stack = int(tokens[6])
 
 
     def handle_getaction(self, line):
@@ -43,6 +45,8 @@ class PokerBot:
         self.state.pot = data["pot"]
         self.state.board_cards = parse_cards(data["board_cards"])
         self.state.legal_actions = data["legal_actions"]
+
+        self.state.update_spr()
 
         # Update opponent model with last actions
         self.opponent.update(data["last_actions"])

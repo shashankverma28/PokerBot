@@ -2,7 +2,7 @@
 ================================================================================
 TEST CASE: Preflop Strong
 REPEATS: 20
-TIME: 2026-02-18 04:46:44
+TIME: 2026-02-18 16:25:06
 ================================================================================
 
 --- RUN 1 ---
@@ -276,7 +276,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Preflop Weak
 REPEATS: 20
-TIME: 2026-02-18 04:46:46
+TIME: 2026-02-18 16:25:10
 ================================================================================
 
 --- RUN 1 ---
@@ -550,7 +550,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Dry High Board
 REPEATS: 20
-TIME: 2026-02-18 04:46:48
+TIME: 2026-02-18 16:25:14
 ================================================================================
 
 --- RUN 1 ---
@@ -564,9 +564,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.910
+[DEBUG] Win Prob: 0.897
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -581,9 +582,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.925
+[DEBUG] Win Prob: 0.887
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -598,9 +600,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.863
+[DEBUG] Win Prob: 0.857
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -615,9 +618,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.898
+[DEBUG] Win Prob: 0.880
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -632,9 +636,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.898
+[DEBUG] Win Prob: 0.885
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -649,9 +654,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.870
+[DEBUG] Win Prob: 0.853
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -666,9 +672,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.880
+[DEBUG] Win Prob: 0.910
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -683,9 +690,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.868
+[DEBUG] Win Prob: 0.897
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -700,6 +708,7 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
 [DEBUG] Win Prob: 0.868
@@ -717,9 +726,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.898
+[DEBUG] Win Prob: 0.885
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -734,9 +744,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.913
+[DEBUG] Win Prob: 0.890
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -751,9 +762,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.907
+[DEBUG] Win Prob: 0.892
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -768,9 +780,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.873
+[DEBUG] Win Prob: 0.897
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -785,9 +798,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.863
+[DEBUG] Win Prob: 0.893
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -802,9 +816,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.862
+[DEBUG] Win Prob: 0.853
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -819,9 +834,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.865
+[DEBUG] Win Prob: 0.885
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -836,9 +852,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.882
+[DEBUG] Win Prob: 0.868
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -853,9 +870,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.895
+[DEBUG] Win Prob: 0.908
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -870,9 +888,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.878
+[DEBUG] Win Prob: 0.897
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -887,9 +906,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.857
+[DEBUG] Win Prob: 0.867
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -904,7 +924,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Dry Low Board
 REPEATS: 20
-TIME: 2026-02-18 04:46:50
+TIME: 2026-02-18 16:25:19
 ================================================================================
 
 --- RUN 1 ---
@@ -918,9 +938,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.380
+[DEBUG] Win Prob: 0.402
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -934,12 +955,13 @@ NEWHAND 4 1 Qh Js 200 200 10.0
 GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-CALL
+RAISE:12
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.460
+[DEBUG] Win Prob: 0.405
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -956,9 +978,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.440
+[DEBUG] Win Prob: 0.415
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -975,9 +998,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.372
+[DEBUG] Win Prob: 0.410
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -994,9 +1018,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.403
+[DEBUG] Win Prob: 0.412
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -1013,9 +1038,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.355
+[DEBUG] Win Prob: 0.418
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -1032,196 +1058,7 @@ OUTPUT:
 CALL
 
 DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.402
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 8 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.383
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 9 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:12
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.357
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 10 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.438
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 11 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:12
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.390
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 12 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.402
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 13 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:12
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.400
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 14 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.422
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 15 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.440
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 16 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: dry_low
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.430
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.18
-[DEBUG] Has Draw: True
-
---- RUN 17 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 4 1 Qh Js 200 200 10.0
-GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
 [DEBUG] Win Prob: 0.407
@@ -1230,7 +1067,67 @@ DEBUG:
 [DEBUG] Bluff Chance: 0.18
 [DEBUG] Has Draw: True
 
---- RUN 18 ---
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.448
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.415
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.402
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 11 ---
 
 INPUT:
 NEWGAME botA botB 200 2 1000 10.0
@@ -1241,9 +1138,150 @@ OUTPUT:
 RAISE:12
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.447
+[DEBUG] Win Prob: 0.433
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 12 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.443
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 13 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.478
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 14 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.435
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 15 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.423
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 16 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.368
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 17 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.442
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
+
+--- RUN 18 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 4 1 Qh Js 200 200 10.0
+GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: dry_low
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.418
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -1260,9 +1298,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.453
+[DEBUG] Win Prob: 0.425
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -1276,20 +1315,21 @@ NEWHAND 4 1 Qh Js 200 200 10.0
 GETACTION 30 3 9c 5d 2s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-CALL
+RAISE:12
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.448
+[DEBUG] Win Prob: 0.382
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
 [DEBUG] Has Draw: True
 
 --- SUMMARY ---
-RAISE: 4 (20.0%)
-CALL: 16 (80.0%)
+RAISE: 3 (15.0%)
+CALL: 17 (85.0%)
 CHECK: 0 (0.0%)
 FOLD: 0 (0.0%)
 OTHER: 0 (0.0%)
@@ -1298,7 +1338,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Paired Board
 REPEATS: 20
-TIME: 2026-02-18 04:46:52
+TIME: 2026-02-18 16:25:23
 ================================================================================
 
 --- RUN 1 ---
@@ -1309,16 +1349,16 @@ NEWHAND 5 1 Ah Qh 200 200 10.0
 GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-CALL
+RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: paired
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.590
+[DEBUG] Win Prob: 0.643
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.23
-[DEBUG] Has Draw: True
+[DEBUG] Value Raise Prob: 0.51
 
 --- RUN 2 ---
 
@@ -1331,6 +1371,350 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.580
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.23
+[DEBUG] Has Draw: True
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.562
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Bluff Chance: 0.23
+[DEBUG] Has Draw: True
+
+--- RUN 4 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.610
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.663
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.658
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.615
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.652
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.662
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.672
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+
+--- RUN 11 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.640
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 12 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.662
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 13 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.610
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 14 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.642
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 15 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.618
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 16 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.630
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 17 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.658
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 18 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+RAISE:36
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.642
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 19 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
+[DEBUG] Texture: paired
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.640
+[DEBUG] Pot Odds: 0.143
+[DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
+
+--- RUN 20 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 5 1 Ah Qh 200 200 10.0
+GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: paired
 [DEBUG] In Position: True
 [DEBUG] Win Prob: 0.597
@@ -1339,335 +1723,9 @@ DEBUG:
 [DEBUG] Bluff Chance: 0.23
 [DEBUG] Has Draw: True
 
---- RUN 3 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:36
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.677
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-
---- RUN 4 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:36
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.628
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 5 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.608
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 6 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:36
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.665
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 7 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:36
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.620
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 8 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.612
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 9 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:36
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.618
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 10 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.662
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 11 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.667
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 12 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.657
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 13 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.588
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.23
-[DEBUG] Has Draw: True
-
---- RUN 14 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.593
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.23
-[DEBUG] Has Draw: True
-
---- RUN 15 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.660
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 16 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.585
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Bluff Chance: 0.23
-[DEBUG] Has Draw: True
-
---- RUN 17 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:36
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.630
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 18 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.622
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 19 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-RAISE:36
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.628
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
---- RUN 20 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 5 1 Ah Qh 200 200 10.0
-GETACTION 30 3 Kc Ks 4d 0 3 FOLD CALL:5 RAISE:10:60 10.0
-
-OUTPUT:
-CALL
-
-DEBUG:
-[DEBUG] Texture: paired
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.647
-[DEBUG] Pot Odds: 0.143
-[DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
-
 --- SUMMARY ---
-RAISE: 7 (35.0%)
-CALL: 13 (65.0%)
+RAISE: 10 (50.0%)
+CALL: 10 (50.0%)
 CHECK: 0 (0.0%)
 FOLD: 0 (0.0%)
 OTHER: 0 (0.0%)
@@ -1676,7 +1734,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Two Tone Board
 REPEATS: 20
-TIME: 2026-02-18 04:46:54
+TIME: 2026-02-18 16:25:28
 ================================================================================
 
 --- RUN 1 ---
@@ -1690,9 +1748,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.845
+[DEBUG] Win Prob: 0.832
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1707,9 +1766,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.840
+[DEBUG] Win Prob: 0.852
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1724,9 +1784,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.872
+[DEBUG] Win Prob: 0.848
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1741,9 +1802,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.888
+[DEBUG] Win Prob: 0.862
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1758,9 +1820,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.888
+[DEBUG] Win Prob: 0.863
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1775,9 +1838,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.833
+[DEBUG] Win Prob: 0.872
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1792,9 +1856,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.837
+[DEBUG] Win Prob: 0.857
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1809,9 +1874,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.832
+[DEBUG] Win Prob: 0.848
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1826,9 +1892,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.825
+[DEBUG] Win Prob: 0.867
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1843,9 +1910,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.848
+[DEBUG] Win Prob: 0.867
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1860,9 +1928,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.857
+[DEBUG] Win Prob: 0.848
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1877,9 +1946,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.848
+[DEBUG] Win Prob: 0.825
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1894,9 +1964,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.860
+[DEBUG] Win Prob: 0.875
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1911,9 +1982,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.853
+[DEBUG] Win Prob: 0.838
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1928,9 +2000,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.835
+[DEBUG] Win Prob: 0.848
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1945,9 +2018,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.830
+[DEBUG] Win Prob: 0.825
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1962,9 +2036,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.832
+[DEBUG] Win Prob: 0.855
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1979,9 +2054,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.837
+[DEBUG] Win Prob: 0.852
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -1996,9 +2072,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.853
+[DEBUG] Win Prob: 0.837
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2013,9 +2090,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.870
+[DEBUG] Win Prob: 0.850
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2030,7 +2108,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Monotone Board
 REPEATS: 20
-TIME: 2026-02-18 04:46:56
+TIME: 2026-02-18 16:25:33
 ================================================================================
 
 --- RUN 1 ---
@@ -2041,12 +2119,13 @@ NEWHAND 7 1 As Kd 200 200 10.0
 GETACTION 30 3 Qs 8s 3s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-RAISE:36
+CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.715
+[DEBUG] Win Prob: 0.655
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2062,9 +2141,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.633
+[DEBUG] Win Prob: 0.702
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2077,12 +2157,13 @@ NEWHAND 7 1 As Kd 200 200 10.0
 GETACTION 30 3 Qs 8s 3s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-RAISE:36
+CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.700
+[DEBUG] Win Prob: 0.693
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2098,9 +2179,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.700
+[DEBUG] Win Prob: 0.688
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2116,11 +2198,13 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.742
+[DEBUG] Win Prob: 0.700
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
 
 --- RUN 6 ---
 
@@ -2130,12 +2214,13 @@ NEWHAND 7 1 As Kd 200 200 10.0
 GETACTION 30 3 Qs 8s 3s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-RAISE:36
+CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.690
+[DEBUG] Win Prob: 0.728
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2151,9 +2236,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.727
+[DEBUG] Win Prob: 0.672
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2169,9 +2255,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.668
+[DEBUG] Win Prob: 0.707
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2187,9 +2274,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.685
+[DEBUG] Win Prob: 0.703
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2202,12 +2290,13 @@ NEWHAND 7 1 As Kd 200 200 10.0
 GETACTION 30 3 Qs 8s 3s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-CALL
+RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.697
+[DEBUG] Win Prob: 0.657
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2223,9 +2312,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.693
+[DEBUG] Win Prob: 0.700
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2238,12 +2328,13 @@ NEWHAND 7 1 As Kd 200 200 10.0
 GETACTION 30 3 Qs 8s 3s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-CALL
+RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.617
+[DEBUG] Win Prob: 0.712
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2259,9 +2350,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.707
+[DEBUG] Win Prob: 0.705
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2277,9 +2369,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.698
+[DEBUG] Win Prob: 0.718
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2292,12 +2385,13 @@ NEWHAND 7 1 As Kd 200 200 10.0
 GETACTION 30 3 Qs 8s 3s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-RAISE:36
+CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.705
+[DEBUG] Win Prob: 0.715
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2313,9 +2407,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.677
+[DEBUG] Win Prob: 0.700
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2331,9 +2426,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.708
+[DEBUG] Win Prob: 0.718
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2346,12 +2442,13 @@ NEWHAND 7 1 As Kd 200 200 10.0
 GETACTION 30 3 Qs 8s 3s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-CALL
+RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.725
+[DEBUG] Win Prob: 0.703
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Value Raise Prob: 0.51
@@ -2364,14 +2461,16 @@ NEWHAND 7 1 As Kd 200 200 10.0
 GETACTION 30 3 Qs 8s 3s 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-RAISE:36
+CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.748
+[DEBUG] Win Prob: 0.707
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
 
 --- RUN 20 ---
 
@@ -2384,15 +2483,17 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: monotone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.743
+[DEBUG] Win Prob: 0.717
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
+[DEBUG] Value Raise Prob: 0.51
 
 --- SUMMARY ---
-RAISE: 12 (60.0%)
-CALL: 8 (40.0%)
+RAISE: 10 (50.0%)
+CALL: 10 (50.0%)
 CHECK: 0 (0.0%)
 FOLD: 0 (0.0%)
 OTHER: 0 (0.0%)
@@ -2401,7 +2502,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Connected Board
 REPEATS: 20
-TIME: 2026-02-18 04:46:59
+TIME: 2026-02-18 16:25:38
 ================================================================================
 
 --- RUN 1 ---
@@ -2415,9 +2516,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.475
+[DEBUG] Win Prob: 0.400
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2434,9 +2536,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.487
+[DEBUG] Win Prob: 0.370
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2453,9 +2556,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.455
+[DEBUG] Win Prob: 0.447
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2469,12 +2573,13 @@ NEWHAND 8 1 Ah Kc 200 200 10.0
 GETACTION 30 3 9d 8c 7h 0 3 FOLD CALL:5 RAISE:10:60 10.0
 
 OUTPUT:
-RAISE:12
+CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.413
+[DEBUG] Win Prob: 0.463
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2491,9 +2596,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.418
+[DEBUG] Win Prob: 0.437
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2510,9 +2616,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.462
+[DEBUG] Win Prob: 0.447
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2529,9 +2636,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.452
+[DEBUG] Win Prob: 0.455
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2548,9 +2656,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.487
+[DEBUG] Win Prob: 0.462
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2567,9 +2676,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.460
+[DEBUG] Win Prob: 0.432
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2586,9 +2696,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.468
+[DEBUG] Win Prob: 0.455
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2605,9 +2716,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.458
+[DEBUG] Win Prob: 0.420
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2624,9 +2736,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.457
+[DEBUG] Win Prob: 0.472
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2643,9 +2756,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.450
+[DEBUG] Win Prob: 0.440
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2662,9 +2776,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.457
+[DEBUG] Win Prob: 0.422
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2681,9 +2796,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.437
+[DEBUG] Win Prob: 0.453
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2700,9 +2816,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.437
+[DEBUG] Win Prob: 0.382
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2719,9 +2836,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.418
+[DEBUG] Win Prob: 0.445
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2738,9 +2856,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.427
+[DEBUG] Win Prob: 0.428
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2757,9 +2876,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.452
+[DEBUG] Win Prob: 0.463
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
@@ -2776,17 +2896,18 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.428
+[DEBUG] Win Prob: 0.458
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.11
 [DEBUG] Has Draw: True
 
 --- SUMMARY ---
-RAISE: 1 (5.0%)
-CALL: 19 (95.0%)
+RAISE: 0 (0.0%)
+CALL: 20 (100.0%)
 CHECK: 0 (0.0%)
 FOLD: 0 (0.0%)
 OTHER: 0 (0.0%)
@@ -2795,7 +2916,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Wet Heavy Board
 REPEATS: 20
-TIME: 2026-02-18 04:47:01
+TIME: 2026-02-18 16:25:42
 ================================================================================
 
 --- RUN 1 ---
@@ -2809,9 +2930,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.817
+[DEBUG] Win Prob: 0.810
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2826,9 +2948,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.808
+[DEBUG] Win Prob: 0.832
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2843,9 +2966,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.795
+[DEBUG] Win Prob: 0.832
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2860,9 +2984,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.828
+[DEBUG] Win Prob: 0.830
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2877,9 +3002,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.833
+[DEBUG] Win Prob: 0.842
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2894,9 +3020,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.805
+[DEBUG] Win Prob: 0.817
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2911,9 +3038,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.822
+[DEBUG] Win Prob: 0.797
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2928,9 +3056,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.812
+[DEBUG] Win Prob: 0.832
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2945,9 +3074,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.862
+[DEBUG] Win Prob: 0.828
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2962,9 +3092,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.813
+[DEBUG] Win Prob: 0.822
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2979,9 +3110,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.797
+[DEBUG] Win Prob: 0.838
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -2996,9 +3128,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.792
+[DEBUG] Win Prob: 0.850
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3013,9 +3146,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.832
+[DEBUG] Win Prob: 0.815
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3030,9 +3164,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.828
+[DEBUG] Win Prob: 0.825
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3047,6 +3182,7 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
 [DEBUG] Win Prob: 0.850
@@ -3064,9 +3200,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.828
+[DEBUG] Win Prob: 0.842
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3081,9 +3218,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.848
+[DEBUG] Win Prob: 0.847
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3098,9 +3236,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.795
+[DEBUG] Win Prob: 0.817
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3115,6 +3254,7 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
 [DEBUG] Win Prob: 0.803
@@ -3132,9 +3272,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.865
+[DEBUG] Win Prob: 0.827
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3149,7 +3290,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Ace Dynamic Board
 REPEATS: 20
-TIME: 2026-02-18 04:47:03
+TIME: 2026-02-18 16:25:47
 ================================================================================
 
 --- RUN 1 ---
@@ -3163,9 +3304,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.953
+[DEBUG] Win Prob: 0.967
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3180,9 +3322,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.948
+[DEBUG] Win Prob: 0.968
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3197,9 +3340,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.938
+[DEBUG] Win Prob: 0.965
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3214,9 +3358,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.968
+[DEBUG] Win Prob: 0.953
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3231,9 +3376,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.943
+[DEBUG] Win Prob: 0.930
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3248,9 +3394,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.953
+[DEBUG] Win Prob: 0.957
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3265,9 +3412,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.938
+[DEBUG] Win Prob: 0.955
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3282,9 +3430,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.930
+[DEBUG] Win Prob: 0.947
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3299,9 +3448,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.958
+[DEBUG] Win Prob: 0.952
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3316,9 +3466,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.958
+[DEBUG] Win Prob: 0.940
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3333,9 +3484,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.958
+[DEBUG] Win Prob: 0.962
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3350,9 +3502,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.953
+[DEBUG] Win Prob: 0.935
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3367,9 +3520,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.970
+[DEBUG] Win Prob: 0.962
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3384,9 +3538,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.967
+[DEBUG] Win Prob: 0.938
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3401,9 +3556,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.958
+[DEBUG] Win Prob: 0.957
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3418,9 +3574,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.965
+[DEBUG] Win Prob: 0.957
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3435,9 +3592,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.938
+[DEBUG] Win Prob: 0.965
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3452,9 +3610,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.937
+[DEBUG] Win Prob: 0.943
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3469,9 +3628,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.943
+[DEBUG] Win Prob: 0.952
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3486,9 +3646,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: connected
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.957
+[DEBUG] Win Prob: 0.968
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -3503,7 +3664,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Flush Draw Semi Bluff
 REPEATS: 30
-TIME: 2026-02-18 04:47:05
+TIME: 2026-02-18 16:25:51
 ================================================================================
 
 --- RUN 1 ---
@@ -3517,12 +3678,14 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.617
+[DEBUG] Win Prob: 0.563
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
 
 --- RUN 2 ---
 
@@ -3535,9 +3698,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.573
+[DEBUG] Win Prob: 0.530
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3554,9 +3718,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.517
+[DEBUG] Win Prob: 0.562
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3573,9 +3738,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.540
+[DEBUG] Win Prob: 0.587
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3592,9 +3758,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.557
+[DEBUG] Win Prob: 0.543
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3611,9 +3778,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.522
+[DEBUG] Win Prob: 0.563
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3630,9 +3798,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.550
+[DEBUG] Win Prob: 0.558
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3649,6 +3818,7 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
 [DEBUG] Win Prob: 0.575
@@ -3668,9 +3838,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.560
+[DEBUG] Win Prob: 0.513
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3687,9 +3858,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.543
+[DEBUG] Win Prob: 0.538
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3706,9 +3878,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.563
+[DEBUG] Win Prob: 0.548
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3725,9 +3898,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.492
+[DEBUG] Win Prob: 0.573
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3744,9 +3918,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.540
+[DEBUG] Win Prob: 0.518
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3763,9 +3938,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.493
+[DEBUG] Win Prob: 0.537
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3782,9 +3958,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.568
+[DEBUG] Win Prob: 0.585
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3801,9 +3978,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.557
+[DEBUG] Win Prob: 0.542
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3820,9 +3998,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.575
+[DEBUG] Win Prob: 0.532
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3839,12 +4018,14 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.600
+[DEBUG] Win Prob: 0.547
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
-[DEBUG] Value Raise Prob: 0.51
+[DEBUG] Bluff Chance: 0.18
+[DEBUG] Has Draw: True
 
 --- RUN 19 ---
 
@@ -3857,9 +4038,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.543
+[DEBUG] Win Prob: 0.513
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3876,9 +4058,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.563
+[DEBUG] Win Prob: 0.575
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3895,9 +4078,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.515
+[DEBUG] Win Prob: 0.585
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3914,9 +4098,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.532
+[DEBUG] Win Prob: 0.567
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3933,9 +4118,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.583
+[DEBUG] Win Prob: 0.532
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3952,9 +4138,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.533
+[DEBUG] Win Prob: 0.573
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3971,9 +4158,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.552
+[DEBUG] Win Prob: 0.598
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -3990,9 +4178,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.520
+[DEBUG] Win Prob: 0.582
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -4009,9 +4198,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.537
+[DEBUG] Win Prob: 0.520
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -4028,9 +4218,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.587
+[DEBUG] Win Prob: 0.582
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -4047,9 +4238,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.523
+[DEBUG] Win Prob: 0.535
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -4066,9 +4258,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.582
+[DEBUG] Win Prob: 0.510
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 [DEBUG] Bluff Chance: 0.18
@@ -4085,7 +4278,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Opponent Fold Heavy
 REPEATS: 30
-TIME: 2026-02-18 04:47:08
+TIME: 2026-02-18 16:25:58
 ================================================================================
 
 --- RUN 1 ---
@@ -4099,158 +4292,7 @@ OUTPUT:
 RAISE:12
 
 DEBUG:
-[DEBUG] Texture: dry_high
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.163
-[DEBUG] Pot Odds: 0.200
-[DEBUG] Opp Fold Rate: 1.00
-[DEBUG] Bluff Chance: 0.41
-[DEBUG] Has Draw: False
-
---- RUN 2 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 12 1 7c 2d 200 200 10.0
-GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
-
-OUTPUT:
-FOLD
-
-DEBUG:
-[DEBUG] Texture: dry_high
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.163
-[DEBUG] Pot Odds: 0.200
-[DEBUG] Opp Fold Rate: 1.00
-[DEBUG] Bluff Chance: 0.41
-[DEBUG] Has Draw: False
-
---- RUN 3 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 12 1 7c 2d 200 200 10.0
-GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
-
-OUTPUT:
-FOLD
-
-DEBUG:
-[DEBUG] Texture: dry_high
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.182
-[DEBUG] Pot Odds: 0.200
-[DEBUG] Opp Fold Rate: 1.00
-[DEBUG] Bluff Chance: 0.41
-[DEBUG] Has Draw: False
-
---- RUN 4 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 12 1 7c 2d 200 200 10.0
-GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
-
-OUTPUT:
-FOLD
-
-DEBUG:
-[DEBUG] Texture: dry_high
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.167
-[DEBUG] Pot Odds: 0.200
-[DEBUG] Opp Fold Rate: 1.00
-[DEBUG] Bluff Chance: 0.41
-[DEBUG] Has Draw: False
-
---- RUN 5 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 12 1 7c 2d 200 200 10.0
-GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
-
-OUTPUT:
-RAISE:12
-
-DEBUG:
-[DEBUG] Texture: dry_high
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.197
-[DEBUG] Pot Odds: 0.200
-[DEBUG] Opp Fold Rate: 1.00
-[DEBUG] Bluff Chance: 0.41
-[DEBUG] Has Draw: False
-
---- RUN 6 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 12 1 7c 2d 200 200 10.0
-GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
-
-OUTPUT:
-FOLD
-
-DEBUG:
-[DEBUG] Texture: dry_high
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.145
-[DEBUG] Pot Odds: 0.200
-[DEBUG] Opp Fold Rate: 1.00
-[DEBUG] Bluff Chance: 0.41
-[DEBUG] Has Draw: False
-
---- RUN 7 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 12 1 7c 2d 200 200 10.0
-GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
-
-OUTPUT:
-FOLD
-
-DEBUG:
-[DEBUG] Texture: dry_high
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.193
-[DEBUG] Pot Odds: 0.200
-[DEBUG] Opp Fold Rate: 1.00
-[DEBUG] Bluff Chance: 0.41
-[DEBUG] Has Draw: False
-
---- RUN 8 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 12 1 7c 2d 200 200 10.0
-GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
-
-OUTPUT:
-FOLD
-
-DEBUG:
-[DEBUG] Texture: dry_high
-[DEBUG] In Position: True
-[DEBUG] Win Prob: 0.193
-[DEBUG] Pot Odds: 0.200
-[DEBUG] Opp Fold Rate: 1.00
-[DEBUG] Bluff Chance: 0.41
-[DEBUG] Has Draw: False
-
---- RUN 9 ---
-
-INPUT:
-NEWGAME botA botB 200 2 1000 10.0
-NEWHAND 12 1 7c 2d 200 200 10.0
-GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
-
-OUTPUT:
-RAISE:12
-
-DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
 [DEBUG] Win Prob: 0.217
@@ -4259,7 +4301,47 @@ DEBUG:
 [DEBUG] Bluff Chance: 0.41
 [DEBUG] Has Draw: False
 
---- RUN 10 ---
+--- RUN 2 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 7c 2d 200 200 10.0
+GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+CALL
+
+DEBUG:
+[DEBUG] SPR: 5.00
+[DEBUG] Texture: dry_high
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.213
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.41
+[DEBUG] Has Draw: False
+
+--- RUN 3 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 7c 2d 200 200 10.0
+GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] SPR: 5.00
+[DEBUG] Texture: dry_high
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.163
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.41
+[DEBUG] Has Draw: False
+
+--- RUN 4 ---
 
 INPUT:
 NEWGAME botA botB 200 2 1000 10.0
@@ -4270,9 +4352,130 @@ OUTPUT:
 RAISE:12
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.187
+[DEBUG] Win Prob: 0.152
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.41
+[DEBUG] Has Draw: False
+
+--- RUN 5 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 7c 2d 200 200 10.0
+GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] SPR: 5.00
+[DEBUG] Texture: dry_high
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.195
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.41
+[DEBUG] Has Draw: False
+
+--- RUN 6 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 7c 2d 200 200 10.0
+GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] SPR: 5.00
+[DEBUG] Texture: dry_high
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.172
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.41
+[DEBUG] Has Draw: False
+
+--- RUN 7 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 7c 2d 200 200 10.0
+GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] SPR: 5.00
+[DEBUG] Texture: dry_high
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.175
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.41
+[DEBUG] Has Draw: False
+
+--- RUN 8 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 7c 2d 200 200 10.0
+GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] SPR: 5.00
+[DEBUG] Texture: dry_high
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.198
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.41
+[DEBUG] Has Draw: False
+
+--- RUN 9 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 7c 2d 200 200 10.0
+GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+RAISE:12
+
+DEBUG:
+[DEBUG] SPR: 5.00
+[DEBUG] Texture: dry_high
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.203
+[DEBUG] Pot Odds: 0.200
+[DEBUG] Opp Fold Rate: 1.00
+[DEBUG] Bluff Chance: 0.41
+[DEBUG] Has Draw: False
+
+--- RUN 10 ---
+
+INPUT:
+NEWGAME botA botB 200 2 1000 10.0
+NEWHAND 12 1 7c 2d 200 200 10.0
+GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
+
+OUTPUT:
+FOLD
+
+DEBUG:
+[DEBUG] SPR: 5.00
+[DEBUG] Texture: dry_high
+[DEBUG] In Position: True
+[DEBUG] Win Prob: 0.195
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4286,12 +4489,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-RAISE:12
+FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.208
+[DEBUG] Win Prob: 0.175
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4305,12 +4509,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-RAISE:12
+CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.190
+[DEBUG] Win Prob: 0.220
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4324,12 +4529,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-CALL
+FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.222
+[DEBUG] Win Prob: 0.173
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4343,12 +4549,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-RAISE:12
+FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.210
+[DEBUG] Win Prob: 0.172
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4365,9 +4572,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.210
+[DEBUG] Win Prob: 0.213
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4384,9 +4592,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.180
+[DEBUG] Win Prob: 0.193
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4403,9 +4612,10 @@ OUTPUT:
 RAISE:12
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.175
+[DEBUG] Win Prob: 0.178
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4419,12 +4629,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-FOLD
+CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.167
+[DEBUG] Win Prob: 0.218
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4438,12 +4649,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-FOLD
+RAISE:12
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.193
+[DEBUG] Win Prob: 0.197
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4457,12 +4669,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-CALL
+FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.202
+[DEBUG] Win Prob: 0.185
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4479,9 +4692,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.185
+[DEBUG] Win Prob: 0.195
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4495,12 +4709,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-CALL
+FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.223
+[DEBUG] Win Prob: 0.193
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4514,12 +4729,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-RAISE:12
+FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.152
+[DEBUG] Win Prob: 0.200
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4533,12 +4749,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-RAISE:12
+CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.222
+[DEBUG] Win Prob: 0.212
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4555,9 +4772,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.178
+[DEBUG] Win Prob: 0.200
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4571,12 +4789,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-FOLD
+RAISE:12
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.170
+[DEBUG] Win Prob: 0.185
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4590,12 +4809,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-RAISE:12
+FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.198
+[DEBUG] Win Prob: 0.195
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4609,12 +4829,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-RAISE:12
+CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.182
+[DEBUG] Win Prob: 0.207
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4628,12 +4849,13 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-CALL
+FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.207
+[DEBUG] Win Prob: 0.192
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
@@ -4647,20 +4869,21 @@ NEWHAND 12 1 7c 2d 200 200 10.0
 GETACTION 40 3 Qh 8d 3c 3 FOLD FOLD FOLD 3 FOLD CALL:10 RAISE:10:50 10.0
 
 OUTPUT:
-FOLD
+RAISE:12
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.185
+[DEBUG] Win Prob: 0.168
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 1.00
 [DEBUG] Bluff Chance: 0.41
 [DEBUG] Has Draw: False
 
 --- SUMMARY ---
-RAISE: 12 (40.0%)
-CALL: 5 (16.7%)
+RAISE: 11 (36.7%)
+CALL: 6 (20.0%)
 CHECK: 0 (0.0%)
 FOLD: 13 (43.3%)
 OTHER: 0 (0.0%)
@@ -4669,7 +4892,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Opponent Aggressive
 REPEATS: 30
-TIME: 2026-02-18 04:47:11
+TIME: 2026-02-18 16:26:05
 ================================================================================
 
 --- RUN 1 ---
@@ -4683,9 +4906,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.178
+[DEBUG] Win Prob: 0.158
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4702,9 +4926,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.170
+[DEBUG] Win Prob: 0.168
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4721,9 +4946,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.193
+[DEBUG] Win Prob: 0.158
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4740,9 +4966,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.200
+[DEBUG] Win Prob: 0.198
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4759,9 +4986,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.165
+[DEBUG] Win Prob: 0.182
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4778,9 +5006,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.183
+[DEBUG] Win Prob: 0.165
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4797,9 +5026,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.173
+[DEBUG] Win Prob: 0.208
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4816,9 +5046,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.190
+[DEBUG] Win Prob: 0.195
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4835,9 +5066,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.183
+[DEBUG] Win Prob: 0.172
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4854,9 +5086,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.177
+[DEBUG] Win Prob: 0.187
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4873,9 +5106,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.183
+[DEBUG] Win Prob: 0.170
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4892,9 +5126,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.192
+[DEBUG] Win Prob: 0.198
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4911,9 +5146,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.145
+[DEBUG] Win Prob: 0.212
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4930,9 +5166,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.195
+[DEBUG] Win Prob: 0.142
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4949,9 +5186,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.208
+[DEBUG] Win Prob: 0.178
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4968,9 +5206,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.143
+[DEBUG] Win Prob: 0.178
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -4987,9 +5226,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.185
+[DEBUG] Win Prob: 0.187
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5006,9 +5246,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.193
+[DEBUG] Win Prob: 0.173
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5025,9 +5266,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.140
+[DEBUG] Win Prob: 0.143
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5044,9 +5286,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.157
+[DEBUG] Win Prob: 0.188
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5063,9 +5306,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.202
+[DEBUG] Win Prob: 0.198
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5082,9 +5326,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.193
+[DEBUG] Win Prob: 0.205
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5101,9 +5346,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.197
+[DEBUG] Win Prob: 0.205
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5120,9 +5366,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.203
+[DEBUG] Win Prob: 0.150
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5139,9 +5386,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.180
+[DEBUG] Win Prob: 0.198
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5158,9 +5406,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.180
+[DEBUG] Win Prob: 0.177
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5177,9 +5426,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.188
+[DEBUG] Win Prob: 0.142
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5196,9 +5446,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.148
+[DEBUG] Win Prob: 0.215
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5215,9 +5466,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.192
+[DEBUG] Win Prob: 0.228
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5234,9 +5486,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.200
+[DEBUG] Win Prob: 0.177
 [DEBUG] Pot Odds: 0.333
 [DEBUG] Opp Fold Rate: 0.00
 [DEBUG] Bluff Chance: 0.00
@@ -5253,7 +5506,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Out of Position
 REPEATS: 20
-TIME: 2026-02-18 04:47:14
+TIME: 2026-02-18 16:26:11
 ================================================================================
 
 --- RUN 1 ---
@@ -5267,9 +5520,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.905
+[DEBUG] Win Prob: 0.878
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5284,9 +5538,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.920
+[DEBUG] Win Prob: 0.897
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5301,9 +5556,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.903
+[DEBUG] Win Prob: 0.862
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5318,9 +5574,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.903
+[DEBUG] Win Prob: 0.867
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5335,6 +5592,7 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
 [DEBUG] Win Prob: 0.873
@@ -5352,9 +5610,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.850
+[DEBUG] Win Prob: 0.890
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5369,9 +5628,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.875
+[DEBUG] Win Prob: 0.885
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5386,9 +5646,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.920
+[DEBUG] Win Prob: 0.888
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5403,9 +5664,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.902
+[DEBUG] Win Prob: 0.917
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5420,9 +5682,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.908
+[DEBUG] Win Prob: 0.892
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5437,9 +5700,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.902
+[DEBUG] Win Prob: 0.905
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5454,9 +5718,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.895
+[DEBUG] Win Prob: 0.892
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5471,9 +5736,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.872
+[DEBUG] Win Prob: 0.885
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5488,9 +5754,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.868
+[DEBUG] Win Prob: 0.893
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5505,9 +5772,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.888
+[DEBUG] Win Prob: 0.908
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5522,6 +5790,7 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
 [DEBUG] Win Prob: 0.867
@@ -5539,9 +5808,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.903
+[DEBUG] Win Prob: 0.872
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5556,9 +5826,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.893
+[DEBUG] Win Prob: 0.905
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5573,9 +5844,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.893
+[DEBUG] Win Prob: 0.865
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5590,9 +5862,10 @@ OUTPUT:
 RAISE:36
 
 DEBUG:
+[DEBUG] SPR: 6.67
 [DEBUG] Texture: dry_high
 [DEBUG] In Position: False
-[DEBUG] Win Prob: 0.907
+[DEBUG] Win Prob: 0.913
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5607,7 +5880,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Large Pot Pressure
 REPEATS: 20
-TIME: 2026-02-18 04:47:16
+TIME: 2026-02-18 16:26:16
 ================================================================================
 
 --- RUN 1 ---
@@ -5621,9 +5894,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.960
+[DEBUG] Win Prob: 0.948
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5638,9 +5912,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.965
+[DEBUG] Win Prob: 0.967
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5655,9 +5930,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.970
+[DEBUG] Win Prob: 0.968
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5672,9 +5948,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.972
+[DEBUG] Win Prob: 0.955
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5689,9 +5966,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.950
+[DEBUG] Win Prob: 0.968
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5706,9 +5984,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.958
+[DEBUG] Win Prob: 0.955
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5723,9 +6002,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.973
+[DEBUG] Win Prob: 0.975
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5740,9 +6020,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.958
+[DEBUG] Win Prob: 0.963
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5757,9 +6038,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.963
+[DEBUG] Win Prob: 0.952
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5774,9 +6056,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.958
+[DEBUG] Win Prob: 0.977
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5791,9 +6074,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.980
+[DEBUG] Win Prob: 0.970
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5808,6 +6092,7 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
 [DEBUG] Win Prob: 0.960
@@ -5825,9 +6110,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.967
+[DEBUG] Win Prob: 0.960
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5842,9 +6128,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.962
+[DEBUG] Win Prob: 0.967
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5859,9 +6146,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.957
+[DEBUG] Win Prob: 0.958
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5876,9 +6164,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.960
+[DEBUG] Win Prob: 0.977
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5893,9 +6182,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.967
+[DEBUG] Win Prob: 0.953
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5910,9 +6200,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.955
+[DEBUG] Win Prob: 0.965
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5927,9 +6218,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.958
+[DEBUG] Win Prob: 0.943
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5944,9 +6236,10 @@ OUTPUT:
 RAISE:200
 
 DEBUG:
+[DEBUG] SPR: 0.67
 [DEBUG] Texture: two_tone
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.975
+[DEBUG] Win Prob: 0.958
 [DEBUG] Pot Odds: 0.143
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5961,7 +6254,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: No Raise Available
 REPEATS: 10
-TIME: 2026-02-18 04:47:19
+TIME: 2026-02-18 16:26:20
 ================================================================================
 
 --- RUN 1 ---
@@ -5975,9 +6268,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.853
+[DEBUG] Win Prob: 0.873
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -5992,9 +6286,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.867
+[DEBUG] Win Prob: 0.847
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6009,9 +6304,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.880
+[DEBUG] Win Prob: 0.872
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6026,9 +6322,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.857
+[DEBUG] Win Prob: 0.837
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6043,9 +6340,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.877
+[DEBUG] Win Prob: 0.875
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6060,9 +6358,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.852
+[DEBUG] Win Prob: 0.873
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6077,9 +6376,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.833
+[DEBUG] Win Prob: 0.830
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6094,9 +6394,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.820
+[DEBUG] Win Prob: 0.877
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6111,9 +6412,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.852
+[DEBUG] Win Prob: 0.890
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6128,9 +6430,10 @@ OUTPUT:
 CALL
 
 DEBUG:
+[DEBUG] SPR: 5.00
 [DEBUG] Texture: dry_low
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.853
+[DEBUG] Win Prob: 0.857
 [DEBUG] Pot Odds: 0.200
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6145,7 +6448,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Only Fold Legal
 REPEATS: 5
-TIME: 2026-02-18 04:47:20
+TIME: 2026-02-18 16:26:23
 ================================================================================
 
 --- RUN 1 ---
@@ -6159,9 +6462,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.953
+[DEBUG] Win Prob: 0.942
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6176,9 +6480,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.945
+[DEBUG] Win Prob: 0.957
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6193,9 +6498,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.950
+[DEBUG] Win Prob: 0.955
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6210,9 +6516,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.940
+[DEBUG] Win Prob: 0.955
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6227,9 +6534,10 @@ OUTPUT:
 FOLD
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.948
+[DEBUG] Win Prob: 0.950
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6244,7 +6552,7 @@ OTHER: 0 (0.0%)
 ================================================================================
 TEST CASE: Only Check Legal
 REPEATS: 5
-TIME: 2026-02-18 04:47:20
+TIME: 2026-02-18 16:26:24
 ================================================================================
 
 --- RUN 1 ---
@@ -6258,9 +6566,10 @@ OUTPUT:
 CHECK
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.938
+[DEBUG] Win Prob: 0.962
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6275,9 +6584,10 @@ OUTPUT:
 CHECK
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.945
+[DEBUG] Win Prob: 0.962
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6292,9 +6602,10 @@ OUTPUT:
 CHECK
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.933
+[DEBUG] Win Prob: 0.945
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6309,9 +6620,10 @@ OUTPUT:
 CHECK
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.968
+[DEBUG] Win Prob: 0.942
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 
@@ -6326,9 +6638,10 @@ OUTPUT:
 CHECK
 
 DEBUG:
+[DEBUG] SPR: 4.00
 [DEBUG] Texture: wet_heavy
 [DEBUG] In Position: True
-[DEBUG] Win Prob: 0.952
+[DEBUG] Win Prob: 0.940
 [DEBUG] Pot Odds: 0.000
 [DEBUG] Opp Fold Rate: 0.30
 

@@ -48,6 +48,9 @@ class Strategy:
         call_amount = self.get_call_amount(state)
         pot_odds = self.compute_pot_odds(state.pot, call_amount)
 
+        spr = state.spr
+        print(f"[DEBUG] SPR: {spr:.2f}", file=sys.stderr)
+
         fold_rate = opponent.fold_rate()
         aggression = opponent.aggression()
 
@@ -80,6 +83,13 @@ class Strategy:
         elif texture == "paired":
             strong_threshold -= 0.03
 
+        # SPR adjustment
+        if spr <= 3:
+            strong_threshold -= 0.08   # commit easier
+
+        elif spr >= 10:
+            strong_threshold += 0.05   # need stronger hand
+
         # Position adjustment
         if in_pos:
             strong_threshold -= 0.05
@@ -87,7 +97,7 @@ class Strategy:
             strong_threshold += 0.05
 
 
-        if win_prob > strong_threshold or (score is not None and score < 2500):
+        if (win_prob > strong_threshold) or (score and score < 2500):
             return self.raise_or_call(state, win_prob)
 
         # ---------- Medium Strength Value Raise ----------
@@ -105,6 +115,13 @@ class Strategy:
                 value_raise_prob += 0.15
             else:
                 value_raise_prob -= 0.15
+
+            # SPR influence
+            if spr <= 3:
+                value_raise_prob += 0.15
+
+            elif spr >= 10:
+                value_raise_prob -= 0.10
 
             value_raise_prob = max(0.0, min(value_raise_prob, 0.8))
 
@@ -135,7 +152,7 @@ class Strategy:
             bluff_chance *= 1.3
         else:
             bluff_chance *= 0.7
-            
+
         # Texture adjustment
         if texture in {"dry_high", "paired"}:
             bluff_chance *= 1.3
@@ -145,6 +162,13 @@ class Strategy:
 
         elif texture == "monotone":
             bluff_chance *= 1.1
+
+        # SPR adjustment for bluffing
+        if spr <= 3:
+            bluff_chance *= 0.7   # less bluff shallow
+
+        elif spr >= 10:
+            bluff_chance *= 1.2   # more bluff deep
 
         bluff_chance = max(0.0, min(bluff_chance, 0.8))
 
