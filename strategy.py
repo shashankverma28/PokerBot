@@ -180,7 +180,7 @@ class Strategy:
         print(f"[DEBUG] Has Draw: {has_draw}", file=sys.stderr)
 
         if win_prob < 0.45 or has_draw:
-            
+
             # ---------- Fold Equity Adjustment ----------
 
             fold_prob = fold_rate
@@ -253,9 +253,15 @@ class Strategy:
         for act in state.legal_actions:
             if act.startswith("RAISE"):
                 parts = act.split(":")
-                return int(parts[1]), int(parts[2])
+                min_raise = int(parts[1])
+                max_raise = int(parts[2])
 
-        return 0, 0
+                if min_raise < 0 or max_raise < 0:
+                    return None, None
+
+                return min_raise, max_raise
+
+        return None, None
 
     # ------------------Bet Sizing Intelligence -----------------
 
@@ -305,6 +311,9 @@ class Strategy:
 
         min_raise, max_raise = self.get_raise_bounds(state)
 
+        if min_raise is None:
+            return None
+
         target = max(min_raise, min(target, max_raise))
 
         print(f"[DEBUG] Bet Multiplier: {base_mult:.2f}", file=sys.stderr)
@@ -326,6 +335,11 @@ class Strategy:
                     is_bluff=False
                 )
 
+                if target is None:
+                    if call_amount > 0:
+                        return "CALL"
+                    return "CHECK"
+                
                 return f"RAISE:{target}"
 
         # fallback

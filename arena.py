@@ -4,7 +4,7 @@ from pypoker_bot import MyPokerBot
 from tournament_titan import TournamentTitan   # change opponent here
 
 
-MAX_ROUNDS = 100
+MAX_ROUNDS = 1000
 INITIAL_STACK = 1000
 SMALL_BLIND = 5
 
